@@ -1,6 +1,6 @@
 FROM tomcat:11-jdk21
 
-COPY target/SocialNetWork.war /usr/local/tomcat/webapps/ROOT.war
+COPY SocialNetWork.war /usr/local/tomcat/webapps/ROOT.war
 
 EXPOSE 8080
 
